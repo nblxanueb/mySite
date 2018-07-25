@@ -1,9 +1,14 @@
-import React, { Component } from "react";
-import "./style.css";
+import React from 'react';
+import Box from '../Box';
+import Trigger from '../Trigger';
 
-class App extends Component {
+export class App extends React.Component {
   render() {
-    return <div className="App">Hello World</div>;
+    return (
+      <Trigger>
+        <Box />
+      </Trigger>
+    );
   }
 }
 

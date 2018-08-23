@@ -1,11 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Header from './header';
+import Skills from './skills';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import 'normalize.css/normalize.css';
 import './slider-animations.css';
 import { SocialIcon } from 'react-social-icons';
+import Typing from 'react-typing-animation';
 import './styles.css';
 
 const content = [
@@ -51,14 +53,17 @@ const App = () => (
 		<Header />
 		<div className="wrapper">
     <div className="about">
+		<Typing>
 			<h2>Hi, I'm Andrey!</h2>
-      <h3>I'm an aspiring web developer fresh out of General Assembly Web Development Immersive bootcamp.
-      I was previously a Hospital Corpsman in the US Navy and was stationed in DC and Guam, but after I returning to NYC I decided to transition my career to IT field and got my BSc in Computer Science at CUNY John Jay College of Criminal Justice in 2017.</h3>
-      <h3>I love technology and always love to get to the bottom of everything, see how everything works. I also love foreign languages and think of coding as speaking in a foreign language, sort of… I love to code because it allows us create cool stuff that can be shared with others around the world!</h3>
+		</Typing>
+      <h3>I'm a full stack web developer with a passion for design and visualization as well as creating user-friendly and interactive interfaces.
+      I was previously a Hospital Corpsman in the US Navy and was stationed in DC and Guam, but after returning to NYC I decided to transition my career to IT field and got my BSc in Computer Science at CUNY John Jay College of Criminal Justice in 2017.</h3>
+      <h3>I love technology and always love to get to the bottom of everything, see how everything works. I also love foreign languages and think of coding as speaking in a foreign language, sort of… I love to code because it allows me create cool stuff that can be shared with others around the world!</h3>
       <h3>My favorite framework right now is React.js on the frontend and Ruby on Rails on the backend. I am also very interested in data visualization and currently trying to learn D3. I have also worked with Flexbox, Node.js,  Express, jQuery, PostgreSQL, CSS, and C++. </h3>
       <h3>In my spare time I like to cook or hang out with my friends or just stay at home and play video games or watch documentaries on Netflix. I love to travel and try to go somewhere new whenever I get a chance, if only for a weekend. My favorite hobby is scuba diving. I’m also a big fan of underwater photography, especially macro; you can check out some of my photos <a href="https://www.flickr.com/photos/pykhantsev/" className="flickr">here.</a></h3>
     </div>
 
+		<Skills />
 			<p>
 			</p>
 		</div>

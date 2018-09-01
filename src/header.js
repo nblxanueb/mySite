@@ -1,15 +1,19 @@
 import React from 'react';
+import Typing from "react-typing-animation";
 import logo2 from './images/logo2.png';
 
 function Header() {
-  return(
-    <header>
-      <section>
-        <img src="https://farm1.staticflickr.com/859/42917553354_c17c1f86aa_z.jpg" alt="Andrey" className="me" />
-        <img src={logo2} alt='logo' className="logo" />
-      </section>
-    </header>
-  )
+  return <div className="hero-image">
+      <div className="hero-text">
+        <h1>Andrey Pykhantsev</h1>
+      </div>
+      <div className="statement">
+        <h3>
+          full stack developer with a passion for creativity and obsession
+          with interactive and user-friendly interfaces
+        </h3>
+      </div>
+    </div>;
 }
 
 export default Header;

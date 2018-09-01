@@ -97,7 +97,7 @@ a:hover {
   margin-left: 10px;
 }
 
-.ibeen-app, .dategrub-app, .easemart-app, .tictactoe-app {
+.app, .ibeen-app, .dategrub-app, .easemart-app, .tictactoe-app {
   display: flex;
   color: #615d5c;
   font-size: 1rem;

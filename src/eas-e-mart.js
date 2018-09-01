@@ -4,7 +4,8 @@ import git_logo from "./images/git-logo.png";
 import www from "./images/www.png";
 
 function Easemart() {
-  return <div>
+  return (
+    <div>
       <div className="easemart-app">
         <div className="app-image">
           <img src={easemart} alt="eas-e-mart" className="easemart-image" />
@@ -30,7 +31,7 @@ function Easemart() {
           </div>
         </div>
       </div>
-    </div>;
+  </div>);
 }
 
 export default Easemart;

@@ -4,7 +4,8 @@ import git_logo from "./images/git-logo.png";
 import www from "./images/www.png";
 
 function Tictactoe() {
-  return <div>
+  return (
+    <div>
       <div className="tictactoe-app">
         <div className="app-body">
           <div className="description">
@@ -29,7 +30,8 @@ function Tictactoe() {
           <img src={tictactoe} alt="tictactoe" className="tictactoe-image" />
         </div>
       </div>
-    </div>;
+  </div>
+  );
 }
 
 export default Tictactoe;

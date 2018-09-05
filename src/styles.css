@@ -19,7 +19,8 @@ navbar {
   z-index: 1;
   background-color: #909090e0;
   height: 40px;
-  width: 98.5%;
+  width: 100%;
+  transform: translate(-8px, 0px);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -221,7 +222,7 @@ a:hover {
   }
   navbar {
   background-color: #909090;
-  width: 95%;
+  /* width: 95%; */
   }
   a {
     font-size: 1rem;

@@ -221,7 +221,11 @@ a:hover {
   }
   navbar {
   background-color: #909090;
-  width: 94%;
+  width: 95%;
+  }
+  a {
+    font-size: 1rem;
+    padding: 2%;
   }
   .hero-image {
     height: 250px;

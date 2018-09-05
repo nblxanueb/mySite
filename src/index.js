@@ -7,6 +7,7 @@ import About from "./about";
 import Contact from "./contact";
 import home from "./images/home1.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import "./styles.css";
 
 const App = () => (
@@ -15,7 +16,7 @@ const App = () => (
       <AnchorLink href="#home">Home</AnchorLink>
       <AnchorLink offset='60' href="#about">About</AnchorLink>
       <AnchorLink offset='55' href="#skills">Skills</AnchorLink>
-      <AnchorLink offset='10' href="#projects">Projects</AnchorLink>
+      <AnchorLink offset='12' href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
     </navbar>
     <div id="home">

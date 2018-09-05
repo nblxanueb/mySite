@@ -18,8 +18,8 @@ navbar {
   top: 0%;
   z-index: 1;
   background-color: #909090e0;
-  height: 44px;
-  width: 98.7%;
+  height: 40px;
+  width: 98.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -219,16 +219,20 @@ a:hover {
   body {
   font-size: 1rem;
   }
+  navbar {
+  background-color: #909090;
+  width: 94%;
+  }
   .hero-image {
     height: 250px;
   }
   .hero-text {
-    top: 4%;
+    top: 20%;
     left: 19%;
     line-height: 0.5rem;
   }
   .statement {
-    top: 36%;
+    top: 67%;
     left: 34%;
     width: 60%;
     font-size: 10px;

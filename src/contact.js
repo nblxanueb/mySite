@@ -14,22 +14,22 @@ function Contact() {
         </div>
         <div className="social-media">
           <div>
-            <a href="https://drive.google.com/file/d/1Vl4B94y-i59bvsneqOudh9itTQHr9efN/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1Vl4B94y-i59bvsneqOudh9itTQHr9efN/view?usp=sharing" target="_blank">
               <img src={resume} alt="resume" className="contact-icons" />
             </a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/andrey-pykhantsev/">
+            <a href="https://www.linkedin.com/in/andrey-pykhantsev/" target="_blank">
               <img src={linkedin} alt="linkedin" className="contact-icons" />
             </a>
           </div>
           <div>
-            <a href="https://github.com/nblxanueb">
+            <a href="https://github.com/nblxanueb" target="_blank">
               <img src={github} alt="github" className="contact-icons" />
             </a>
           </div>
           <div>
-            <a href="https://www.flickr.com/photos/pykhantsev/">
+            <a href="https://www.flickr.com/photos/pykhantsev/" target="_blank">
               <img src={flickr} alt="flickr" className="contact-icons" />
             </a>
           </div>

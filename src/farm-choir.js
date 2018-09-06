@@ -21,10 +21,10 @@ function Farmchoir() {
             <p>HTML, CSS, Javascript, jQuery, Flexbox, Pixelmator</p>
           </div>
           <div className="links">
-            <a href="http://peaceful-pasteur-af9ae7.netlify.com/" target="_blank">
+            <a href="http://peaceful-pasteur-af9ae7.netlify.com/" target="_blank" rel="noopener noreferrer">
               <img src={www} alt="website" className="website-logo" />
             </a>
-            <a href="https://github.com/nblxanueb/farm-choir" target="_blank">
+            <a href="https://github.com/nblxanueb/farm-choir" target="_blank" rel="noopener noreferrer">
               <img src={git_logo} alt="github" className="git-logo" />
             </a>
           </div>

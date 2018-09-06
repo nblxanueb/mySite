@@ -5,14 +5,13 @@ import Skills from "./skills";
 import Projects from "./projects";
 import About from "./about";
 import Contact from "./contact";
-import home from "./images/home1.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import "./styles.css";
 
 const App = () => (
   <div>
-    <navbar>
+    <div className="navbar">
       <AnchorLink offset="60" href="#home">
         Home
       </AnchorLink>
@@ -26,7 +25,7 @@ const App = () => (
         Projects
       </AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
-    </navbar>
+    </div>
     <div id="home">
       <Header />
     </div>

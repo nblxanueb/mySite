@@ -24,10 +24,10 @@ function Easemart() {
             <p>Node.js, Express server, postgreSQL, Google Maps API</p>
           </div>
           <div className="links">
-            <a href="http://eas-e-mart.herokuapp.com/" target="_blank">
+            <a href="http://eas-e-mart.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src={www} alt="website" className="website-logo" />
             </a>
-            <a href="https://github.com/nblxanueb/eas-e-mart" target="_blank">
+            <a href="https://github.com/nblxanueb/eas-e-mart" target="_blank" rel="noopener noreferrer">
               <img src={git_logo} alt="github" className="git-logo" />
             </a>
           </div>

@@ -12,16 +12,18 @@ function Ibeen() {
             <h3>Description:</h3>
             <p>
               "iBeen" is a place for all your travel memories. A full CRUD
-              application built using Node.js and Express server, it uses postgreSQL database to store your trips' details. Google Maps API helps users to save the location of their trip as well.
+              application built using Node.js and Express server, it uses
+              postgreSQL database to store your trips' details. Google Maps
+              API helps users to save the location of their trip as well.
             </p>
             <h3>Tech:</h3>
             <p>Node.js, Express server, postgreSQL, NPM, Google Maps API</p>
           </div>
           <div className="links">
-            <a href="http://ibeen.herokuapp.com/" target="_blank">
+            <a href="http://ibeen.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src={www} alt="website" className="website-logo" />
             </a>
-            <a href="https://github.com/nblxanueb/ibeen" target="_blank">
+            <a href="https://github.com/nblxanueb/ibeen" target="_blank" rel="noopener noreferrer">
               <img src={git_logo} alt="github" className="git-logo" />
             </a>
           </div>

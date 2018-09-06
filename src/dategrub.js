@@ -14,7 +14,7 @@ function Dategrub() {
             <h2 className="app-name">date Grub</h2>
             <h3>Description:</h3>
             <p>
-              Finding a perfect spot for your date doesn't have to be hard. "date Grub" is powered by Yelp and will recommend you the best ideas near you so you can feel confident about your choice. Sleek design and user-friendly experience will help you decide where to go in no time and once you do, you can share your choice on social media.
+              Finding a perfect spot for your date doesn't have to be hard. "date Grub" is powered by Yelp and will recommend the best ideas nearby so you can feel confident about your choice. Sleek design and user-friendly experience will help you decide where to go in no time and once you do, you can share your choice on social media.
             </p>
             <h3>Tech:</h3>
             <p> React, Express Server, NPM, Yelp Fusion API, Google Maps API</p>

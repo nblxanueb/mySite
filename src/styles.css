@@ -100,6 +100,8 @@ a:hover {
 }
 
 .contact {
+  width: 106%;
+  transform: translate(-8px, 8px);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -189,7 +191,6 @@ a:hover {
 .tictactoe-image {
   width: 75%;
   margin: 10%;
-  margin-bottom: 3%;
 }
 
 .website-logo, .git-logo {

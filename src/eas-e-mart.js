@@ -4,22 +4,24 @@ import git_logo from "./images/git-logo.png";
 import www from "./images/www.png";
 
 function Easemart() {
-  return (
-    <div>
+  return <div>
       <div className="easemart-app">
         <div className="app-image">
           <img src={easemart} alt="eas-e-mart" className="easemart-image" />
         </div>
-
         <div className="app-body">
           <div className="description">
-            <h2>Description:</h2>
+            <h2 className="app-name">eas-E-mart</h2>
+            <h3>Description:</h3>
             <p>
-              An online classified advertisements website with items for sale.
-              A group project using Express/React and Google Maps API.
+              "eas-E-mart" is a full CRUD online classified advertisements app
+              with items for sale listed by users. The app features user
+              authentication and displays user location on an interactive map.
+              Responsive Web Design makes this app especially easy for use on
+              the go.
             </p>
-            <h2>Tech:</h2>
-            <p>node.js, express/react, css, google maps api</p>
+            <h3>Tech:</h3>
+            <p>Node.js, Express server, postgreSQL, Google Maps API</p>
           </div>
           <div className="links">
             <a href="http://eas-e-mart.herokuapp.com/" target="_blank">
@@ -31,7 +33,7 @@ function Easemart() {
           </div>
         </div>
       </div>
-  </div>);
+    </div>;
 }
 
 export default Easemart;

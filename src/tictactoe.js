@@ -4,18 +4,18 @@ import git_logo from "./images/git-logo.png";
 import www from "./images/www.png";
 
 function Tictactoe() {
-  return (
-    <div>
+  return <div>
       <div className="tictactoe-app">
         <div className="app-body">
           <div className="description">
+            <h2 className="app-name">Tic Tac Toe</h2>
             <h2>Description:</h2>
             <p>
-              A classic Tic Tac Toe game based on Javascript and DOM
+              This is a classic two-player Tic Tac Toe game built using Javascript and DOM
               manipulation.
             </p>
             <h2>Tech:</h2>
-            <p>node.js, express, css, google maps api</p>
+            <p>HTML, CSS, Javascript, jQuery</p>
           </div>
           <div className="links">
             <a href="" target="_blank">
@@ -30,8 +30,7 @@ function Tictactoe() {
           <img src={tictactoe} alt="tictactoe" className="tictactoe-image" />
         </div>
       </div>
-  </div>
-  );
+    </div>;
 }
 
 export default Tictactoe;

@@ -4,22 +4,20 @@ import git_logo from "./images/git-logo.png";
 import www from "./images/www.png";
 
 function Dategrub() {
-  return (
-    <div>
+  return <div>
       <div className="dategrub-app">
         <div className="app-image">
           <img src={dategrub} alt="dategrub" className="dategrub-image" />
         </div>
-
         <div className="dategrub-body">
           <div className="description">
-            <h2>Description:</h2>
+            <h2 className="app-name">date Grub</h2>
+            <h3>Description:</h3>
             <p>
-              An app to find the perfect spot for a date. Powered by Yelp
-              Fusion and Google Maps API.
+              Finding a perfect spot for your date doesn't have to be hard. "date Grub" is powered by Yelp and will recommend you the best ideas near you so you can feel confident about your choice. Sleek design and user-friendly experience will help you decide where to go in no time and once you do, you can share your choice on social media.
             </p>
-            <h2>Tech:</h2>
-            <p>node.js, express, css, yelp fusion api, google maps api</p>
+            <h3>Tech:</h3>
+            <p> React, Express Server, NPM, Yelp Fusion API, Google Maps API</p>
           </div>
           <div className="links">
             <a href="http://date-grub.herokuapp.com/" target="_blank">
@@ -31,7 +29,7 @@ function Dategrub() {
           </div>
         </div>
       </div>
-  </div>);
+    </div>;
 }
 
 export default Dategrub;

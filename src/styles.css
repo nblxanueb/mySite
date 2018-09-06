@@ -2,6 +2,8 @@ body {
   box-sizing: border-box;
   background-color: #f6f6f6;
   text-align: justify;
+  color: #615d5c;
+
 }
 
 navbar {
@@ -42,7 +44,6 @@ a:hover {
 }
 
 .hero-text, .statement {
-  color: #615d5c;
   background-color: #ffffffa3;
   position: absolute;
   left: 34%;
@@ -62,7 +63,6 @@ a:hover {
 
 .skills, .projects {
   width: 100%;
-  color: #615d5c;
   text-align: center;
 }
 
@@ -88,15 +88,14 @@ a:hover {
 }
 
 .about {
-  color: #615d5c;
   max-width: 90%;
   padding-left: 4%;
 }
 
-
-
 .flickr {
+  font-size: 1em;
   color: #615d5c;
+  padding: 0%;
   text-decoration: underline;
 }
 
@@ -131,13 +130,19 @@ a:hover {
   background-color: #696868;
 }
 
+.app-name {
+  width: fit-content;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), rgba(255, 255, 0, 0.7) 55%, rgba(255, 255, 255, 0));
+}
+
 .app, .ibeen-app, .dategrub-app, .easemart-app, .tictactoe-app {
   display: flex;
-  color: #615d5c;
   font-size: 1rem;
   flex-direction: row;
   border-top: 2px solid #dbdbdb;
-  background-color: ##f6f6f6;
+  background-color: #f6f6f6;
 }
 
 .dategrub-app {
@@ -149,6 +154,7 @@ a:hover {
 }
 
 .app-body {
+  width: 90%;
   margin-left: 5%;
   margin-top: 3%;
   padding-right: 15px;
@@ -156,14 +162,12 @@ a:hover {
 
 .dategrub-body {
   margin-right: 5%;
-  margin-top: 3%;
-  transform: translate(-10%, 0px);
+  margin-bottom: 2%;
 }
 
 .dategrub-image {
-  width: 80%;
+  width: 100%;
   margin-top: 5%;
-  margin-bottom: 5%;
   transform: translate(-15%, 0px);
 }
 
@@ -175,14 +179,11 @@ a:hover {
 .easemart-image {
   margin: 6%;
   width: 100%;
-  /* transform: translate(-20%, 0px); */
 }
 
 .farmchoir-image {
-  width: 90%;
-  margin-top: 7%;
-  margin-bottom: 5%;
-  transform: translate(-15%, 0px)
+  width: 100%;
+  margin-top: 15%;
 }
 
 .tictactoe-image {
@@ -192,9 +193,9 @@ a:hover {
 }
 
 .website-logo, .git-logo {
-  width: 8%;
-  margin-top: 5%;
-  margin-left: 3%;
+  width: 2.5rem;
+  margin: 2rem;
+  margin-right: -1rem;
 }
 
 @media (max-height: 500px) {
@@ -293,5 +294,9 @@ a:hover {
   }
   .contact-icons {
     width: 55%;
+  }
+  .app-name{
+    width: 90%;
+    text-align: center;
   }
 }

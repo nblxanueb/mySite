@@ -8,13 +8,14 @@ function Ibeen() {
       <div className="ibeen-app">
         <div className="app-body">
           <div className="description">
-            <h2>Description:</h2>
+            <h2 className="app-name">iBeen</h2>
+            <h3>Description:</h3>
             <p>
-              A place for all your travel memories; full stack CRUD
-              application using Node and Express and Google Maps API.
+              "iBeen" is a place for all your travel memories. A full CRUD
+              application built using Node.js and Express server, it uses postgreSQL database to store your trips' details. Google Maps API helps users to save the location of their trip as well.
             </p>
-            <h2>Tech:</h2>
-            <p>node.js, express, css, google maps api</p>
+            <h3>Tech:</h3>
+            <p>Node.js, Express server, postgreSQL, NPM, Google Maps API</p>
           </div>
           <div className="links">
             <a href="http://ibeen.herokuapp.com/" target="_blank">

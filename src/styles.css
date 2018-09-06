@@ -61,18 +61,23 @@ a:hover {
 }
 
 .skills, .projects {
-  width: 0%;
-  margin: auto;
+  width: 100%;
   color: #615d5c;
-  margin-bottom: 1%;
+  text-align: center;
+}
+
+.projects {
 }
 
 .skills-section {
   border-top: 2px solid #dbdbdb;
+  border-bottom: 2px solid #dbdbdb;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  background-color: #ffffff;
+
 }
 
 .skills-icon {
@@ -82,16 +87,13 @@ a:hover {
   margin-bottom: 25%;
 }
 
-.about, .projects {
+.about {
   color: #615d5c;
   max-width: 90%;
   padding-left: 4%;
 }
 
-.projects {
-  padding-left: 0;
-  padding-top: 3%;
-}
+
 
 .flickr {
   color: #615d5c;
@@ -101,6 +103,7 @@ a:hover {
 .contact {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   background-color: #909090;
   margin: 0%;
@@ -108,14 +111,24 @@ a:hover {
 }
 
 .social-media {
-  width: 40%;
+  width: 20%;
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .contact-icons {
-  width: 30%;
-  padding: 0;
+  width: 70%;
+  margin-top: -10px;
+}
+
+.contact-icons:hover {
+  transform: scale(1.2);
+}
+
+.made-by {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #696868;
 }
 
 .app, .ibeen-app, .dategrub-app, .easemart-app, .tictactoe-app {
@@ -127,7 +140,11 @@ a:hover {
   background-color: ##f6f6f6;
 }
 
-.dategrub-app, .easemart-app, .tictactoe-app {
+.dategrub-app {
+  border: none;
+}
+
+.ibeen-app, .app {
   background-color: #ffffff;
 }
 
@@ -271,7 +288,10 @@ a:hover {
   .easemart-image, .tictactoe-image {
     margin: 2%;
   }
+  .social-media {
+    width: 80%;
+  }
   .contact-icons {
-    width: 75%;
+    width: 55%;
   }
 }

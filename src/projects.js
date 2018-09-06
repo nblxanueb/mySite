@@ -6,14 +6,16 @@ import Farmchoir from "./farm-choir";
 import Tictactoe from "./tictactoe";
 
 function Projects() {
-  return <div>
-      <h2 className="projects"> Projects: </h2>
-      <Dategrub />
-      <Ibeen />
-      <Easemart />
-      <Farmchoir />
-      <Tictactoe />
-    </div>;
+  return (
+  <div>
+    <h2 className="projects">Projects:</h2>
+    <Dategrub />
+    <Ibeen />
+    <Easemart />
+    <Farmchoir />
+    <Tictactoe />
+  </div>
+  );
 }
 
 export default Projects;

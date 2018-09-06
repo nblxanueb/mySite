@@ -13,10 +13,18 @@ import "./styles.css";
 const App = () => (
   <div>
     <navbar>
-      <AnchorLink href="#home">Home</AnchorLink>
-      <AnchorLink offset='60' href="#about">About</AnchorLink>
-      <AnchorLink offset='55' href="#skills">Skills</AnchorLink>
-      <AnchorLink offset='12' href="#projects">Projects</AnchorLink>
+      <AnchorLink offset="60" href="#home">
+        Home
+      </AnchorLink>
+      <AnchorLink offset="60" href="#about">
+        About
+      </AnchorLink>
+      <AnchorLink offset="40" href="#skills">
+        Skills
+      </AnchorLink>
+      <AnchorLink offset="60" href="#projects">
+        Projects
+      </AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
     </navbar>
     <div id="home">

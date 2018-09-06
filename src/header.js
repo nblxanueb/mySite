@@ -3,7 +3,8 @@ import Typing from "react-typing-animation";
 import logo2 from './images/logo2.png';
 
 function Header() {
-  return <div className="hero-image">
+  return (
+    <div className="hero-image">
       <div className="hero-text">
         <h1>Andrey Pykhantsev</h1>
       </div>
@@ -13,7 +14,8 @@ function Header() {
           with interactive and user-friendly interfaces
         </h3>
       </div>
-    </div>;
+    </div>
+  );
 }
 
 export default Header;

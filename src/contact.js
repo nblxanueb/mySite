@@ -3,6 +3,7 @@ import linkedin from "./images/linkedin.png";
 import github from "./images/git-logo-w.png";
 import flickr from "./images/flickr.png";
 import email from "./images/email.png";
+import resume from "./images/resume.png";
 import { SocialIcon } from "react-social-icons";
 
 function Contact() {
@@ -12,6 +13,11 @@ function Contact() {
           <h3> contact information: </h3>
         </div>
         <div className="social-media">
+          <div>
+            <a href="https://drive.google.com/file/d/1Vl4B94y-i59bvsneqOudh9itTQHr9efN/view?usp=sharing">
+              <img src={resume} alt="resume" className="contact-icons" />
+            </a>
+          </div>
           <div>
             <a href="https://www.linkedin.com/in/andrey-pykhantsev/">
               <img src={linkedin} alt="linkedin" className="contact-icons" />
@@ -33,8 +39,8 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div>
-          <h6> made by A.Pykhantsev © 2018 </h6>
+        <div className="made-by">
+          <h5> made by A.Pykhantsev © 2018 </h5>
         </div>
       </div>
     </div>;

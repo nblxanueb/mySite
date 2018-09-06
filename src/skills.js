@@ -18,10 +18,9 @@ import ruby_on_rails from "./images/ruby_on_rails.png";
 import sketch from "./images/sketch.png";
 
 function Skills() {
-  return (
-    <div>
-      <h2 className="skills"> Skills: </h2>
+  return <div>
       <div className="skills-section">
+        <h2 className="skills">Skills:</h2>
         <div>
           <img src={adobecs} alt="adobecs" className="skills-icon" />
         </div>
@@ -74,7 +73,7 @@ function Skills() {
           <img src={sketch} alt="sketch" className="skills-icon" />
         </div>
       </div>
-  </div>);
+    </div>;
 }
 
 export default Skills;

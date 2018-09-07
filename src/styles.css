@@ -155,7 +155,7 @@ a:hover {
   background-color: #ffffff;
 }
 
-.app-body {
+.app-body, .sunny-body {
   width: 90%;
   margin-left: 5%;
   margin-top: 3%;
@@ -196,10 +196,12 @@ a:hover {
 .sunny-body {
   margin-right: 5%;
 }
+
 .sunny-image {
-  width: 75%;
+  width: 95%;
   margin: 3%;
   margin-left: 0%;
+  transform: translate(0px, 20px);
 }
 
 .website-logo, .git-logo {
@@ -282,10 +284,10 @@ a:hover {
     width: 4em;
     margin: 1em;
   }
-  .app, .dategrub-app, .easemart-app, .tictactoe-app, .sunny-app {
+  .app, .dategrub-app, .easemart-app, .tictactoe-app{
     flex-direction: column;
   }
-  .ibeen-app {
+  .ibeen-app, .sunny-app {
     flex-direction: column-reverse;
   }
   .dategrub-image, .ibeen-image, .farmchoir-image, .tictactoe-image {
@@ -293,8 +295,10 @@ a:hover {
     width: 100%;
   }
   .sunny-image {
-    width: 65%;
+    width: 100%;
     margin-bottom: 0;
+    transform: translate(0px, 0px);
+    margin-top: -5%;
   }
   .dategrub-body {
     transform: translate(0px, 0px);

@@ -14,13 +14,19 @@ function Sunny() {
             <h2 className="app-name">sunny Forecast</h2>
             <h3>Description:</h3>
             <p>
-            "sunny Forecast" is a fast way to check the weather in your location, or anywhere in the US. Based on Openweather API, users can check current weather by providing their Zip-code. Google Maps API also allows the users to see their location.
+              "sunny Forecast" is a fast way to check the weather in your
+              location, or anywhere in the US. Based on Openweather API, users
+              can check current weather by providing their Zip-code. Google
+              Maps API also allows the users to see their location.
             </p>
             <h3>Tech:</h3>
-            <p>HTML, CSS, Javascript, jQuery, AJAX, Openweather API Google Maps API</p>
+            <p>
+              HTML, CSS, Javascript, jQuery, AJAX, Openweather API Google Maps
+              API
+            </p>
           </div>
           <div className="links">
-            <a href="https://sunnyforecast.netlify.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://nblxanueb.github.io/sunny-forecast/" target="_blank" rel="noopener noreferrer">
               <img src={www} alt="website" className="website-logo" />
             </a>
             <a href="https://github.com/nblxanueb/sunny-forecast" target="_blank" rel="noopener noreferrer">

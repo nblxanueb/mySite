@@ -15,7 +15,7 @@ function Dategrub() {
             <h3>Description:</h3>
             <p>
               Finding a perfect spot for your date doesn't have to be hard.
-              "date Grub" is powered by Yelp and will recommend the best ideas
+              "date Grub" is powered by Yelp and will recommend the best places
               nearby so you can feel confident about your choice. Sleek design
               and user-friendly experience will help you decide where to go in
               no time and once you do, you can share your choice on social

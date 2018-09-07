@@ -12,9 +12,9 @@ function Ibeen() {
             <h3>Description:</h3>
             <p>
               "iBeen" is a place for all your travel memories. A full CRUD
-              application built using Node.js and Express server, it uses
+              app built using Node.js and Express server, it uses
               postgreSQL database to store your trips' details. Google Maps
-              API helps users to save the location of their trip as well.
+              API allows users to save the location of their trip as well.
             </p>
             <h3>Tech:</h3>
             <p>Node.js, Express server, postgreSQL, NPM, Google Maps API</p>

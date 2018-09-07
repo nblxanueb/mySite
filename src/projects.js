@@ -4,6 +4,7 @@ import Easemart from "./eas-e-mart";
 import Dategrub from "./dategrub";
 import Farmchoir from "./farm-choir";
 import Tictactoe from "./tictactoe";
+import Sunny from "./sunny";
 
 function Projects() {
   return (
@@ -14,6 +15,7 @@ function Projects() {
     <Easemart />
     <Farmchoir />
     <Tictactoe />
+    <Sunny />
   </div>
   );
 }

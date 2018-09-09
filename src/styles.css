@@ -151,7 +151,7 @@ a:hover {
   border: none;
 }
 
-.ibeen-app, .app, .sunny-app {
+.ibeen-app, .sunny-app, .tictactoe-app {
   background-color: #ffffff;
 }
 
@@ -176,6 +176,10 @@ a:hover {
 .ibeen-image {
   width: 90%;
   transform: translate(11%, 0%);
+}
+
+.ibeen-cell {
+  display: none;
 }
 
 .easemart-image {
@@ -290,9 +294,16 @@ a:hover {
   .ibeen-app, .sunny-app {
     flex-direction: column-reverse;
   }
-  .dategrub-image, .ibeen-image, .farmchoir-image, .tictactoe-image {
+  .dategrub-image, .ibeen-cell, .farmchoir-image, .tictactoe-image {
     transform: translate(0px, 0px);
     width: 100%;
+  }
+  .ibeen-image{
+    display: none;
+  }
+  .ibeen-cell {
+
+    display: block;
   }
   .sunny-image {
     width: 100%;

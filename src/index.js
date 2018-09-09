@@ -18,7 +18,7 @@ const App = () => (
       <AnchorLink offset="60" href="#about">
         About
       </AnchorLink>
-      <AnchorLink offset="40" href="#skills">
+      <AnchorLink offset="38" href="#skills">
         Skills
       </AnchorLink>
       <AnchorLink offset="60" href="#projects">

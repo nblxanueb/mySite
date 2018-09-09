@@ -100,8 +100,7 @@ a:hover {
 }
 
 .contact {
-  width: 101%;
-  transform: translate(-8px, 8px);
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;

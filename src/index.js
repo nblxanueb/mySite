@@ -6,7 +6,6 @@ import Projects from "./projects";
 import About from "./about";
 import Contact from "./contact";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
 import "./styles.css";
 
 const App = () => (

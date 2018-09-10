@@ -7,15 +7,17 @@ import Tictactoe from "./tictactoe";
 import Sunny from "./sunny";
 
 function Projects() {
-  return <div>
+  return (
+    <div>
       <h2 className="projects">Projects:</h2>
-      <Dategrub />
+      <Dategrub />2
       <Ibeen />
       <Easemart />
       <Sunny />
       <Farmchoir />
       <Tictactoe />
-    </div>;
+    </div>
+  );
 }
 
 export default Projects;

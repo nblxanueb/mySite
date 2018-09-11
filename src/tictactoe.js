@@ -11,17 +11,17 @@ function Tictactoe() {
             <h2 className="app-name">Tic Tac Toe</h2>
             <h2>Description:</h2>
             <p>
-              This is a classic two-player Tic Tac Toe game built using Javascript and DOM
-              manipulation.
+              This is a classic two-player Tic Tac Toe game built using
+              Javascript and DOM manipulation.
             </p>
             <h2>Tech:</h2>
             <p>HTML, CSS, Javascript, jQuery</p>
           </div>
           <div className="links">
-            <a href="" target="_blank">
+            <a href="https://nblxanueb.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">
               <img src={www} alt="website" className="website-logo" />
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/nblxanueb/tic-tac-toe" target="_blank" rel="noopener noreferrer">
               <img src={git_logo} alt="github" className="git-logo" />
             </a>
           </div>

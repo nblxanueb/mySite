@@ -10,7 +10,7 @@ function Projects() {
   return (
     <div>
       <h2 className="projects">Projects:</h2>
-      <Dategrub />2
+      <Dategrub />
       <Ibeen />
       <Easemart />
       <Sunny />

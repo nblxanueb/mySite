@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="hero-image">
       <div className="hero-text">
-        <h1>Andrey Pykhantsev</h1>
+        <h2>Andrey Pykhantsev</h2>
       </div>
       <div className="statement">
         <h3>

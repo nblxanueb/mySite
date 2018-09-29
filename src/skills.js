@@ -1,5 +1,6 @@
 import React from "react";
 import adobecs from "./images/adobecs.png";
+import aws from "./images/aws.png";
 import cpp from "./images/cpp.png";
 import css3 from "./images/css3.png";
 import git from "./images/git.png";
@@ -21,6 +22,9 @@ function Skills() {
   return <div>
       <div className="skills-section">
         <h2 className="skills">Skills:</h2>
+        <div>
+          <img src={aws} alt="aws" className="skills-icon" />
+        </div>
         <div>
           <img src={adobecs} alt="adobecs" className="skills-icon" />
         </div>

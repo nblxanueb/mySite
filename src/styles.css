@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  box-shadow: 0px 3px 30px #3a3939;
+  box-shadow: 0px 3px 10px #3a3939;
 }
 
 a {

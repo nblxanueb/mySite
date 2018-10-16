@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 0%;
   z-index: 1;
-  background-color: #909090e0;
+  background-color: #1b0a0ae0;
   height: 40px;
   width: 100%;
   transform: translate(-8px, 0px);
@@ -82,10 +82,10 @@ a:hover {
 }
 
 .skills-icon {
-  max-width: 6em;
-  margin: 20px;
-  margin-top: 25%;
-  margin-bottom: 25%;
+  width: 5em;
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about {

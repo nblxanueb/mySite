@@ -17,6 +17,8 @@ import responsivedesign from "./images/responsive_design.png";
 import ruby from "./images/ruby.png";
 import ruby_on_rails from "./images/ruby_on_rails.png";
 import sketch from "./images/sketch.png";
+import xml from "./images/xml.png";
+
 
 function Skills() {
   return <div>
@@ -75,6 +77,9 @@ function Skills() {
         </div>
         <div>
           <img src={sketch} alt="sketch" className="skills-icon" />
+        </div>
+        <div>
+          <img src={xml} alt="xml" className="skills-icon" />
         </div>
       </div>
     </div>;

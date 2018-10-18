@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 0%;
   z-index: 1;
-  background-color: #1b0a0ae0;
+  background-color: #909090dc;
   height: 40px;
   width: 100%;
   transform: translate(-8px, 0px);
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .hero-text, .statement {
-  background-color: #ffffffa3;
+  background-color: #ffffffbf;
   position: absolute;
   left: 34%;
   top: 44%;
@@ -256,10 +256,6 @@ a:hover {
 @media (max-width: 640px) {
   body {
   font-size: 1rem;
-  }
-  .navbar {
-  background-color: #909090;
-  /* width: 95%; */
   }
   a {
     font-size: 1rem;

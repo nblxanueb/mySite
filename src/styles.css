@@ -2,15 +2,16 @@ body {
   box-sizing: border-box;
   background-color: #f6f6f6;
   text-align: justify;
-  color: #615d5c;
-
+  color: #494556;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
+  font-family: 'Libre Baskerville', serif;
   position: fixed;
   top: 0%;
   z-index: 1;
-  background-color: #909090dc;
+  background-color: #7f7888dc;
   height: 40px;
   width: 100%;
   transform: translate(-8px, 0px);
@@ -22,13 +23,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #f1eef6;
+  color: #ebeaf5;
   font-size: 1.2rem;
   padding: 1%;
 }
 
 a:hover {
-  color: #4e4d4d;
+  color: #231f2b;
   font-weight: 600;
   padding: none;
   cursor: pointer;
@@ -45,6 +46,7 @@ a:hover {
 }
 
 .hero-text, .statement {
+  font-family: 'Libre Baskerville', serif;
   background-color: #ffffffbf;
   position: absolute;
   left: 34%;
@@ -56,7 +58,14 @@ a:hover {
   border-radius: 5px 5px;
 }
 
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: #373342;
+}
+
+
 .statement {
+  font-family: 'Raleway', sans-serif;
   width: 50%;
   line-height: 1.5rem;
   top: 70%;
@@ -71,8 +80,8 @@ a:hover {
 }
 
 .skills-section {
-  border-top: 2px solid #dbdbdb;
-  border-bottom: 2px solid #dbdbdb;
+  border-top: 2px solid #7f7888;
+  border-bottom: 2px solid #7f7888;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -90,12 +99,13 @@ a:hover {
 
 .about {
   max-width: 90%;
-  padding-left: 4%;
+  padding: 4%;
+  padding-top: 0%;
 }
 
 .flickr {
   font-size: 1em;
-  color: #615d5c;
+  color: #494556;
   padding: 0%;
   text-decoration: underline;
 }
@@ -106,9 +116,9 @@ a:hover {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-color: #909090;
+  background-color: #afa5ae;
   margin: 0%;
-  color: #f1eef6;
+  color: #ebeaf5;
 }
 
 .social-media {
@@ -129,7 +139,7 @@ a:hover {
   width: 100%;
   text-align: center;
   margin-top: 10px;
-  background-color: #696868;
+  background-color: #7f7888;
 }
 
 .app-name {
@@ -143,7 +153,7 @@ a:hover {
   display: flex;
   font-size: 1rem;
   flex-direction: row;
-  border-top: 2px solid #dbdbdb;
+  border-top: 2px solid #7f7888;
   background-color: #f6f6f6;
 }
 

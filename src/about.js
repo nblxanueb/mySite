@@ -12,21 +12,21 @@ function About() {
           I'm a full stack web developer with a passion for design and
           visualization as well as creating user-friendly and interactive
           interfaces. I was previously a Hospital Corpsman in the US Navy and
-          was stationed in DC and Guam. After returning to NYC I decided to
-          transition my career to IT field and got my BSc in Computer Science at
+          was stationed in DC and Guam. After returning to NYC, I decided to
+          transition my career to IT field and got my BSc in Computer Science from
           CUNY John Jay College of Criminal Justice in 2017.
         </p>
         <p>
           I love technology and always love to get to the bottom of everything,
           see how everything works. I also love foreign languages and think of
-          coding as speaking in a foreign language, sort of… I love to code
+          coding as speaking a foreign language, sort of… I love to code
           because it allows me create cool stuff that can be shared with others
           around the world!
         </p>
         <p>
           My favorite framework right now is React.js on the frontend and Ruby
           on Rails on the backend. I am also very interested in data
-          visualization and currently trying to learn D3. I have also worked
+          visualization and currently learning D3. I have also worked
           with Flexbox, Node.js, Express, jQuery, PostgreSQL, CSS, and C++.{" "}
         </p>
         <p>

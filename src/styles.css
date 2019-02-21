@@ -149,7 +149,7 @@ h2 {
   background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), rgba(255, 255, 0, 0.7) 95%, rgba(255, 255, 255, 0));
 }
 
-.app, .ibeen-app, .dategrub-app, .easemart-app, .tictactoe-app, .sunny-app {
+.app, .ibeen-app, .llama-app, .dategrub-app, .easemart-app, .tictactoe-app, .sunny-app {
   display: flex;
   font-size: 1rem;
   flex-direction: row;
@@ -157,8 +157,12 @@ h2 {
   background-color: #f6f6f6;
 }
 
-.dategrub-app {
+.llama-app {
   border: none;
+}
+
+.llama-body {
+  width: 50%;
 }
 
 .ibeen-app, .sunny-app, .tictactoe-app {
@@ -177,6 +181,15 @@ h2 {
   margin-bottom: 2%;
 }
 
+.llama1-image {
+  width: 80%;
+  transform: translate(10%, 10%);
+}
+
+.llama2-image {
+  width: 100%;
+}
+
 .dategrub-image {
   width: 100%;
   margin-top: 5%;
@@ -188,7 +201,7 @@ h2 {
   transform: translate(11%, 0%);
 }
 
-.ibeen-cell {
+.ibeen-cell, .llama3-image {
   display: none;
 }
 
@@ -304,11 +317,20 @@ h2 {
     transform: translate(0px, 0px);
     width: 100%;
   }
-  .ibeen-image{
+  .llama-body {
+    width: 100%;
+    margin: 2%;
+  }
+  .ibeen-image, .llama1-image, .llama2-image {
     display: none;
   }
-  .ibeen-cell {
+  .llama3-image {
+  }
+  .ibeen-cell, .llama3-image {
     display: block;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
   }
   .sunny-image {
     width: 100%;

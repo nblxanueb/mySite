@@ -3,7 +3,7 @@ import llama1 from "./images/llama1.png";
 import llama2 from "./images/llama2.png";
 import llama3 from "./images/llama3.png";
 import git_logo from "./images/git-logo.png";
-import www from "./images/www.png";
+// import www from "./images/www.png";
 
 function Llama() {
   return (

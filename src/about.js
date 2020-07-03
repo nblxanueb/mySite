@@ -15,7 +15,7 @@ function About() {
           includes such technologies as JavaScript, HTML/CSS, and such
           frameworks as React.js. I am also very interested in data
           visualization and currently learning D3. I have also worked with
-          Flexbox, Node.js, Express, jQuery, PostgreSQL, CSS, C++, and Python.
+          WordPress, Node.js, Express, jQuery, PostgreSQL, CSS, C++, and Python.
         </p>
         <p>
           I love technology and always love to get to the bottom of everything,

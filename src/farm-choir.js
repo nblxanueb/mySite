@@ -18,7 +18,7 @@ function Farmchoir() {
               and DOM manipulation.
             </p>
             <h3>Tech:</h3>
-            <p>HTML, CSS, Javascript, jQuery, Flexbox, Pixelmator</p>
+            <p>HTML || CSS || Javascript || jQuery || Flexbox || Pixelmator</p>
           </div>
           <div className="links">
             <a href="https://farm-choir.netlify.com/" target="_blank" rel="noopener noreferrer">

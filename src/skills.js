@@ -18,7 +18,7 @@ import ruby_on_rails from "./images/ruby_on_rails.svg";
 import sketch from "./images/sketch.svg";
 import xml from "./images/xml.svg";
 import confluence from "./images/confluence.svg";
-
+import wordpress from "./images/wordpress-blue.svg";
 
 
 function Skills() {
@@ -26,19 +26,28 @@ function Skills() {
       <div className="skills-section">
         <h2 className="skills">Skills:</h2>
         <div>
-          <img src={aws} alt="aws" className="skills-icon" title="Amazon Web Services" />
-        </div>
-        <div>
-          <img src={adobecs} alt="adobecs" className="skills-icon" title="Adobe Creative Cloud" />
-        </div>
-        <div>
-          <img src={confluence} alt="confluence" className="skills-icon" title="Confluence" />
+          <img src={javascript} alt="javascript" className="skills-icon" title="JavaScript ES6" />
         </div>
         <div>
           <img src={cpp} alt="cpp" className="skills-icon" title="C++" />
         </div>
         <div>
+          <img src={reactjs} alt="reactjs" className="skills-icon" id="react" title="React.js" />
+        </div>
+        <div>
+          <img src={wordpress} alt="wordpress" className="skills-icon" title="WordPress" />
+        </div>
+        <div>
+          <img src={html5} alt="html5" className="skills-icon" title="HTML 5" />
+        </div>
+        <div>
           <img src={css3} alt="css3" className="skills-icon" title="CSS 3" />
+        </div>
+        <div>
+          <img src={jquery} alt="jquery" className="skills-icon" title="jQuery" />
+        </div>
+        <div>
+          <img src={aws} alt="aws" className="skills-icon" title="Amazon Web Services" />
         </div>
         <div>
           <img src={git} alt="git" className="skills-icon" title="Git Version Control" />
@@ -47,25 +56,16 @@ function Skills() {
           <img src={github} alt="github" className="skills-icon" title="GitHub" />
         </div>
         <div>
+          <img src={confluence} alt="confluence" className="skills-icon" title="Confluence" />
+        </div>
+        <div>
           <img src={heroku} alt="heroku" className="skills-icon" title="Heroku" />
-        </div>
-        <div>
-          <img src={html5} alt="html5" className="skills-icon" title="HTML 5" />
-        </div>
-        <div>
-          <img src={javascript} alt="javascript" className="skills-icon" title="JavaScript ES6" />
-        </div>
-        <div>
-          <img src={jquery} alt="jquery" className="skills-icon" title="jQuery" />
         </div>
         <div>
           <img src={nodeexpress} alt="nodeexpress" className="skills-icon" title="Node.js/Express" />
         </div>
         <div>
           <img src={postgresql} alt="postgresql" className="skills-icon" title="PostgreSQL" />
-        </div>
-        <div>
-          <img src={reactjs} alt="reactjs" className="skills-icon" title="React.js" />
         </div>
         <div>
           <img src={responsivedesign} alt="responsivedesign" className="skills-icon" title="Responsive Web Design" />
@@ -75,6 +75,9 @@ function Skills() {
         </div>
         <div>
           <img src={ruby_on_rails} alt="ruby_on_rails" className="skills-icon" title="Rails" />
+        </div>
+        <div>
+          <img src={adobecs} alt="adobecs" className="skills-icon" title="Adobe Creative Cloud" />
         </div>
         <div>
           <img src={sketch} alt="sketch" className="skills-icon" title="Sketch" />

@@ -15,7 +15,7 @@ function Tictactoe() {
               Javascript and DOM manipulation.
             </p>
             <h2>Tech:</h2>
-            <p>HTML, CSS, Javascript, jQuery</p>
+            <p>HTML || CSS || Javascript || jQuery</p>
           </div>
           <div className="links">
             <a href="https://nblxanueb.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">

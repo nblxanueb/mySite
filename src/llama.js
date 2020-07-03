@@ -37,7 +37,7 @@ function Llama() {
             <h3>Role:</h3>
             <p>Front-End Developer</p>
             <h3>Tech:</h3>
-            <p>React Native, Javascript, Cocoapods, Google Maps API</p>
+            <p>React Native || Javascript || Cocoapods || Google Maps API</p>
           </div>
           <div className="links">
             <a

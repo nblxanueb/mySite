@@ -21,7 +21,7 @@ function Easemart() {
               the go.
             </p>
             <h3>Tech:</h3>
-            <p>Node.js, Express server, postgreSQL, Google Maps API</p>
+            <p>Node.js || Express server || postgreSQL || Google Maps API</p>
           </div>
           <div className="links">
             <a href="http://eas-e-mart.herokuapp.com/" target="_blank" rel="noopener noreferrer">

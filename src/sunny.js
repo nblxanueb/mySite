@@ -21,7 +21,7 @@ function Sunny() {
             </p>
             <h3>Tech:</h3>
             <p>
-              HTML, CSS, Javascript, jQuery, AJAX, Openweather API Google Maps
+              HTML || CSS || Javascript || jQuery || AJAX  Openweather API || Google Maps
               API
             </p>
           </div>

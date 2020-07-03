@@ -18,7 +18,7 @@ function Ibeen() {
               users to save the location of their trip as well.
             </p>
             <h3>Tech:</h3>
-            <p>Node.js, Express server, postgreSQL, NPM, Google Maps API</p>
+            <p>Node.js || Express server || postgreSQL || NPM || Google Maps API</p>
           </div>
           <div className="links">
             <a href="http://ibeen.herokuapp.com/" target="_blank" rel="noopener noreferrer">

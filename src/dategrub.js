@@ -23,7 +23,7 @@ function Dategrub() {
             </p>
             <h3>Tech:</h3>
             <p>
-              React, Express Server, NPM, Yelp Fusion API, Google Maps API
+              React || Express Server || NPM || Yelp Fusion API || Google Maps API
             </p>
           </div>
           <div className="links">

@@ -8,8 +8,8 @@ function Header() {
       </div>
       <div className="statement">
         <h3>
-          full stack developer with a passion for creativity and obsession
-          with interactive and user-friendly interfaces
+          web developer with a passion for creativity and obsession
+          with interactive and human-centered interfaces
         </h3>
       </div>
     </div>

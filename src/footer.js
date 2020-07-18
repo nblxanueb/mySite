@@ -5,10 +5,10 @@ import flickr from "./images/flickr.png";
 import email from "./images/email.png";
 import resume from "./images/resume.png";
 
-function Contact() {
+function Footer() {
   return (
     <div>
-      <div className="contact">
+      <div className="footer">
         <div>
           <h3> contact information: </h3>
         </div>
@@ -56,11 +56,11 @@ function Contact() {
           </div>
         </div>
         <div className="made-by">
-          <h5> made by A.Pykhantsev © 2018 </h5>
+          <h5> made by A.Pykhantsev © 2018-2020</h5>
         </div>
       </div>
     </div>
   );
 }
 
-export default Contact;
+export default Footer;

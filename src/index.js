@@ -4,7 +4,7 @@ import Header from "./header";
 import Skills from "./skills";
 import Projects from "./projects";
 import About from "./about";
-import Contact from "./contact";
+import Footer from "./footer";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./styles.css";
 
@@ -38,7 +38,7 @@ const App = () => (
       <Projects />
     </div>
     <div id="contact">
-      <Contact />
+      <Footer />
     </div>
   </div>
 );

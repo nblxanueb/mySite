@@ -3,11 +3,11 @@ body {
   background-color: #f6f6f6;
   text-align: justify;
   color: #494556;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   position: fixed;
   top: 0%;
   z-index: 1;
@@ -45,8 +45,9 @@ a:hover {
   position: relative;
 }
 
-.hero-text, .statement {
-  font-family: 'Libre Baskerville', serif;
+.hero-text,
+.statement {
+  font-family: "Libre Baskerville", serif;
   background-color: #ffffffbf;
   position: absolute;
   left: 34%;
@@ -59,23 +60,22 @@ a:hover {
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   color: #373342;
 }
 
-
 .statement {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   width: 50%;
   line-height: 1.5rem;
   top: 70%;
 }
 
-.skills, .projects {
+.skills,
+.projects {
   width: 100%;
   text-align: center;
 }
-
 
 .skills-section {
   border-top: 2px solid #7f7888;
@@ -85,7 +85,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-
 }
 
 .skills-icon {
@@ -145,10 +144,22 @@ h2 {
   width: fit-content;
   padding-left: 3%;
   padding-right: 10%;
-  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), rgba(255, 255, 0, 0.7) 95%, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    -100deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 0, 0.7) 95%,
+    rgba(255, 255, 255, 0)
+  );
 }
 
-.app, .ibeen-app, .llama-app, .dategrub-app, .easemart-app, .tictactoe-app, .sunny-app {
+.app,
+.ibeen-app,
+.llama-app,
+.dategrub-app,
+.easemart-app,
+.tictactoe-app,
+.sunny-app,
+.miatelier-app {
   display: flex;
   font-size: 1rem;
   flex-direction: row;
@@ -156,20 +167,29 @@ h2 {
   background-color: #f6f6f6;
 }
 
-.llama-app {
+.miatelier-image {
+  max-width: 100%;
+}
+
+.miatelier-app {
   border: none;
+  flex-direction: row-reverse;
 }
 
 .llama-body {
   width: 50%;
 }
 
-.dategrub-app, .easemart-app, .app {
+.dategrub-app,
+.easemart-app,
+.app {
   background-color: #ffffff;
 }
 
-.app-body, .sunny-body {
-  width: 90%;
+.app-body,
+.sunny-body,
+.miatelier-body {
+  width: 85%;
   margin-left: 5%;
   margin-top: 3%;
   padding-right: 15px;
@@ -200,7 +220,8 @@ h2 {
   transform: translate(11%, 0%);
 }
 
-.ibeen-cell, .llama3-image {
+.ibeen-cell,
+.llama3-image {
   display: none;
 }
 
@@ -230,7 +251,8 @@ h2 {
   transform: translate(0px, 20px);
 }
 
-.website-logo, .git-logo {
+.website-logo,
+.git-logo {
   width: 2.5rem;
   margin: 1rem;
   margin-left: -0.5rem;
@@ -238,7 +260,7 @@ h2 {
 
 @media (max-height: 500px) {
   body {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   .hero-image {
     height: 250px;
@@ -251,7 +273,7 @@ h2 {
 
 @media (max-width: 640px) {
   body {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   .hero-image {
     height: 250px;
@@ -264,7 +286,7 @@ h2 {
 
 @media (max-height: 600px) {
   body {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   .hero-image {
     height: 250px;
@@ -277,7 +299,7 @@ h2 {
 
 @media (max-width: 640px) {
   body {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   a {
     font-size: 1rem;
@@ -306,13 +328,21 @@ h2 {
     width: 4em;
     margin: 1em;
   }
-  .app, .dategrub-app, .easemart-app, .tictactoe-app{
+  .app,
+  .dategrub-app,
+  .easemart-app,
+  .tictactoe-app,
+  .miatelier-app {
     flex-direction: column;
   }
-  .ibeen-app, .sunny-app {
+  .ibeen-app,
+  .sunny-app {
     flex-direction: column-reverse;
   }
-  .dategrub-image, .ibeen-cell, .farmchoir-image, .tictactoe-image {
+  .dategrub-image,
+  .ibeen-cell,
+  .farmchoir-image,
+  .tictactoe-image {
     transform: translate(0px, 0px);
     width: 100%;
   }
@@ -320,16 +350,23 @@ h2 {
     width: 100%;
     margin: 2%;
   }
-  .ibeen-image, .llama1-image, .llama2-image {
+  .llama-app {
+    border: none;
+  }
+  .ibeen-image,
+  .llama1-image,
+  .llama2-image {
     display: none;
   }
+  .ibeen-cell,
   .llama3-image {
-  }
-  .ibeen-cell, .llama3-image {
     display: block;
     width: 100%;
     margin-bottom: 2%;
     margin-top: 2%;
+  }
+  .llama3-image {
+    border-top: 2px solid #7f7888;
   }
   .sunny-image {
     width: 100%;

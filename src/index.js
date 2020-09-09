@@ -23,7 +23,9 @@ const App = () => (
       <AnchorLink offset="60" href="#projects">
         Projects
       </AnchorLink>
-      <AnchorLink href="#contact">Contact</AnchorLink>
+      <AnchorLink href="#contact">
+        Contact
+      </AnchorLink>
     </div>
     <div id="home">
       <Header />

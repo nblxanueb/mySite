@@ -36,9 +36,9 @@ a:hover {
 }
 
 .hero-image {
-  background-image: url(https://i.imgur.com/NpKym1G.jpg);
+  background-image: url(https://i.imgur.com/AQ6we5g.jpg);
   background-color: ##f6f6f6;
-  height: 400px;
+  height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,14 +82,14 @@ h2 {
   border-bottom: 2px solid #7f7888;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
 }
 
 .skills-icon {
-  width: 5em;
-  margin: 1rem;
+  width: 5vw;
+  margin: 2vw;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

@@ -56,13 +56,7 @@ function Skills() {
           <img src={github} alt="github" className="skills-icon" title="GitHub" />
         </div>
         <div>
-          <img src={confluence} alt="confluence" className="skills-icon" title="Confluence" />
-        </div>
-        <div>
           <img src={heroku} alt="heroku" className="skills-icon" title="Heroku" />
-        </div>
-        <div>
-          <img src={nodeexpress} alt="nodeexpress" className="skills-icon" title="Node.js/Express" />
         </div>
         <div>
           <img src={postgresql} alt="postgresql" className="skills-icon" title="PostgreSQL" />
@@ -71,19 +65,10 @@ function Skills() {
           <img src={responsivedesign} alt="responsivedesign" className="skills-icon" title="Responsive Web Design" />
         </div>
         <div>
-          <img src={ruby} alt="ruby" className="skills-icon" title="Ruby" />
-        </div>
-        <div>
-          <img src={ruby_on_rails} alt="ruby_on_rails" className="skills-icon" title="Rails" />
-        </div>
-        <div>
           <img src={adobecs} alt="adobecs" className="skills-icon" title="Adobe Creative Cloud" />
         </div>
         <div>
           <img src={sketch} alt="sketch" className="skills-icon" title="Sketch" />
-        </div>
-        <div>
-          <img src={xml} alt="xml" className="skills-icon" title="XML" />
         </div>
       </div>
     </div>;
